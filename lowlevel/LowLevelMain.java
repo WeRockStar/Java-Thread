@@ -3,7 +3,7 @@ package lowlevel;
 public class LowLevelMain {
 
     public static void main(String[] arsg) throws InterruptedException {
-        ThreadTask thread = new ThreadTask(4);
+        ThreadTask thread = new ThreadTask(10);
 
         new Thread(thread).start();
         synchronized (thread) {
