@@ -7,6 +7,5 @@ public class AnotherThread implements Runnable{
         while(true){
             System.out.println("Another Thread...");
         }
-    }
-    
+    }    
 }
